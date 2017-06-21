@@ -1,0 +1,39 @@
+* {
+  border: 1px dashed red;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+tr, td, th {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+}
+
+td span {
+  text-align: center;
+  margin: auto;
+}
+
+
+#table {
+  display: flex;
+  justify-content: center;
+}
+
+#image {
+  transform: scale(0.4, 0.4);
+  background-repeat: no-repeat;
+  /*background-size: 30%;*/
+}
+
+
+
+/*#breed, #life, #size, #health, #active {
+  text-align: center;
+}*/
