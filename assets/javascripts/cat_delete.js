@@ -28,6 +28,7 @@
     });
     // console.log($(.remove));
 
+      // this function needs to be outside of get.  it's its own function
       //click on delete button to remove row from DOM and table
       $("#table").on("click", ".remove", function() {
         let idDelete = $(this).attr("id");
